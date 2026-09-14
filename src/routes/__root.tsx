@@ -77,11 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Civic Rewards South Africa" },
-      { name: "description", content: "Civic engagement and public service delivery rewards for smarter South African cities." },
+      { title: "Civic Rewards Investor & Partner Business Plan" },
+      { name: "description", content: "Civic Rewards Investor and Partner Business Plan 2026" },
       { name: "author", content: "Civic Rewards South Africa" },
-      { property: "og:title", content: "Civic Rewards South Africa" },
-      { property: "og:description", content: "Rewarding active citizenship and better public service delivery." },
+      { property: "og:title", content: "Civic Rewards Investor & Partner Business Plan" },
+      {
+        property: "og:description",
+        content: "Civic Rewards Investor and Partner Business Plan 2026",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
